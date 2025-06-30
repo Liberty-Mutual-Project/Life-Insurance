@@ -1,5 +1,5 @@
-# This resource creates a virtual machine.
-# It includes the virtual machine's name, location, and required configuration.
+# This resource creates an Azure Storage Account.
+# It includes the storage account's name, location, and required configuration.
 # Please ensure that all necessary input values are provided correctly.
 
 resource "azurerm_storage_account" "pagal1storage" {
