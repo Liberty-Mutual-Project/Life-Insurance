@@ -7,12 +7,6 @@ terraform {
       version = "4.23.0"
     }
   }
-  backend "azurerm" {
-    resource_group_name  = "paglait"
-    storage_account_name = "pagalstorageacc"
-    container_name       = "tfstate"
-    key                  = "Dev.terraform.tfstate"
-  }
 }
 provider "azurerm" {
   features {}
