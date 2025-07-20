@@ -1,6 +1,6 @@
-# यह संसाधन एक वर्चुअल मशीन बनाता है।
-# इसमें वर्चुअल मशीन का नाम, लोकेशन, और आवश्यक कॉन्फ़िगरेशन शामिल हैं।
-# कृपया सुनिश्चित करें कि सभी आवश्यक इनपुट मान सही ढंग से प्रदान किए गए हैं।
+# This resource creates an Azure Storage Account.
+# It includes the storage account's name, location, and required configuration.
+# Please ensure that all necessary input values are provided correctly.
 
 resource "azurerm_storage_account" "pagal1storage" {
   name = var.stgacc_name
